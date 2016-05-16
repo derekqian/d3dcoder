@@ -1,0 +1,4 @@
+The snowflake.dds was created by loading a plain white bitmap image "block.bmp"
+into the DX Tex tool.  Then we loaded snowball.bmp into its alpha channel.  This
+results the snow flake (provided alpha blending is enabled) to be a round white ball.
+The black image border will not be displayed.

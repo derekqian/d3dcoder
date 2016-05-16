@@ -1,0 +1,109 @@
+Vertices:
+---------
+
+Vertex 0: (-1, -1, 1, 0, 0, 1, 0, 0)
+Vertex 1: (1, 1, 1, 0, 0, 1, 1, 1)
+Vertex 2: (-1, 1, 1, 0, 0, 1, 1, 0)
+Vertex 3: (1, -1, 1, 0, 0, 1, 0, 1)
+Vertex 4: (-1, -1, -1, 0, 0, -1, 0, 0)
+Vertex 5: (1, 1, -1, 0, 0, -1, 1, 1)
+Vertex 6: (1, -1, -1, 0, 0, -1, 1, 0)
+Vertex 7: (-1, 1, -1, 0, 0, -1, 0, 1)
+Vertex 8: (-1, -1, -1, 0, -1, 0, 0, 0)
+Vertex 9: (1, -1, 1, 0, -1, 0, 1, 1)
+Vertex 10: (-1, -1, 1, 0, -1, 0, 1, 0)
+Vertex 11: (1, -1, -1, 0, -1, 0, 0, 1)
+Vertex 12: (-1, 1, -1, 0, 1, 0, 0, 0)
+Vertex 13: (1, 1, 1, 0, 1, 0, 1, 1)
+Vertex 14: (1, 1, -1, 0, 1, 0, 1, 0)
+Vertex 15: (-1, 1, 1, 0, 1, 0, 0, 1)
+Vertex 16: (1, -1, -1, 1, 0, 0, 0, 0)
+Vertex 17: (1, 1, 1, 1, 0, 0, 1, 1)
+Vertex 18: (1, -1, 1, 1, 0, 0, 1, 0)
+Vertex 19: (1, 1, -1, 1, 0, 0, 0, 1)
+Vertex 20: (-1, -1, 1, -1, 0, 0, 0, 0)
+Vertex 21: (-1, 1, -1, -1, 0, 0, 1, 1)
+Vertex 22: (-1, -1, -1, -1, 0, 0, 1, 0)
+Vertex 23: (-1, 1, 1, -1, 0, 0, 0, 1)
+
+
+Indices:
+--------
+
+Triangle 0: 0 1 2
+Triangle 1: 0 3 1
+Triangle 2: 4 5 6
+Triangle 3: 4 7 5
+Triangle 4: 8 9 10
+Triangle 5: 8 11 9
+Triangle 6: 12 13 14
+Triangle 7: 12 15 13
+Triangle 8: 16 17 18
+Triangle 9: 16 19 17
+Triangle 10: 20 21 22
+Triangle 11: 20 23 21
+
+
+Attribute Table:
+----------------
+
+Entry 0
+-----------
+Subset ID:    0
+Face Start:   0
+Face Count:   4
+Vertex Start: 0
+Vertex Count: 8
+
+Entry 1
+-----------
+Subset ID:    1
+Face Start:   4
+Face Count:   4
+Vertex Start: 8
+Vertex Count: 8
+
+Entry 2
+-----------
+Subset ID:    2
+Face Start:   8
+Face Count:   4
+Vertex Start: 16
+Vertex Count: 8
+
+
+
+Attribute Buffer:
+-----------------
+
+Triangle lives in subset 0: 0
+Triangle lives in subset 1: 0
+Triangle lives in subset 2: 0
+Triangle lives in subset 3: 0
+Triangle lives in subset 4: 1
+Triangle lives in subset 5: 1
+Triangle lives in subset 6: 1
+Triangle lives in subset 7: 1
+Triangle lives in subset 8: 2
+Triangle lives in subset 9: 2
+Triangle lives in subset 10: 2
+Triangle lives in subset 11: 2
+
+
+Adjacency Buffer:
+-----------------
+
+Triangle's adjacent to triangle 0: 1 7 11
+Triangle's adjacent to triangle 1: 4 8 0
+Triangle's adjacent to triangle 2: 3 9 5
+Triangle's adjacent to triangle 3: 10 6 2
+Triangle's adjacent to triangle 4: 5 1 10
+Triangle's adjacent to triangle 5: 2 8 4
+Triangle's adjacent to triangle 6: 7 9 3
+Triangle's adjacent to triangle 7: 11 0 6
+Triangle's adjacent to triangle 8: 9 1 5
+Triangle's adjacent to triangle 9: 2 6 8
+Triangle's adjacent to triangle 10: 11 3 4
+Triangle's adjacent to triangle 11: 0 7 10
+
+

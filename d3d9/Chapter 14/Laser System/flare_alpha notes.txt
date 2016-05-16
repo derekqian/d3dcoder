@@ -1,0 +1,2 @@
+The flare_alpha.dds was created by loading a plain white bitmap image "block.bmp"
+into the DX Tex tool.  Then we loaded flare.bmp into its alpha channel.
