@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PageFlipDemo", "PageFlipDemo.vcproj", "{7C367B31-4AC6-457F-BE0C-8054986C9D2E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7C367B31-4AC6-457F-BE0C-8054986C9D2E}.Debug|Win32.ActiveCfg = Debug|Win32
+		{7C367B31-4AC6-457F-BE0C-8054986C9D2E}.Debug|Win32.Build.0 = Debug|Win32
+		{7C367B31-4AC6-457F-BE0C-8054986C9D2E}.Release|Win32.ActiveCfg = Release|Win32
+		{7C367B31-4AC6-457F-BE0C-8054986C9D2E}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

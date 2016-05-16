@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ShadowMap", "ShadowMap.vcproj", "{27E1444E-0E14-45FB-96BA-4A37D0410422}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{27E1444E-0E14-45FB-96BA-4A37D0410422}.Debug|Win32.ActiveCfg = Debug|Win32
+		{27E1444E-0E14-45FB-96BA-4A37D0410422}.Debug|Win32.Build.0 = Debug|Win32
+		{27E1444E-0E14-45FB-96BA-4A37D0410422}.Release|Win32.ActiveCfg = Release|Win32
+		{27E1444E-0E14-45FB-96BA-4A37D0410422}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

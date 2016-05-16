@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Basic Terrain Demo", "Basic Terrain Demo.vcproj", "{C0CDE7FE-B357-489A-8AC0-75955E1A5E52}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C0CDE7FE-B357-489A-8AC0-75955E1A5E52}.Debug|Win32.ActiveCfg = Debug|Win32
+		{C0CDE7FE-B357-489A-8AC0-75955E1A5E52}.Debug|Win32.Build.0 = Debug|Win32
+		{C0CDE7FE-B357-489A-8AC0-75955E1A5E52}.Release|Win32.ActiveCfg = Release|Win32
+		{C0CDE7FE-B357-489A-8AC0-75955E1A5E52}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
