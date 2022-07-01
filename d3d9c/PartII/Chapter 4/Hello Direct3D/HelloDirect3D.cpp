@@ -62,7 +62,7 @@ HelloD3DApp::HelloD3DApp(HINSTANCE hInstance, std::string winCaption, D3DDEVTYPE
     fontDesc.OutputPrecision = OUT_DEFAULT_PRECIS;
     fontDesc.Quality         = DEFAULT_QUALITY;
     fontDesc.PitchAndFamily  = DEFAULT_PITCH | FF_DONTCARE;
-    _tcscpy(fontDesc.FaceName, _T("Times New Roman"));
+    lstrcpy(fontDesc.FaceName, _T("Times New Roman"));
 
 	HR(D3DXCreateFontIndirect(gd3dDevice, &fontDesc, &mFont));
 }
