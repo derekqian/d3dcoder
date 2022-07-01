@@ -19,10 +19,10 @@
 
 #include <d3d9.h>
 #include <d3dx9.h>
-#include <dxerr9.h>
+#include <dxerr.h>
 #include <string>
 #include <sstream>
-
+#pragma comment(lib, "legacy_stdio_definitions.lib")
 //===============================================================
 // Globals for convenient access.
 class D3DApp;
