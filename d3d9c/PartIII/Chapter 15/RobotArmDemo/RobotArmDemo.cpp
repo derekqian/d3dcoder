@@ -177,7 +177,7 @@ RobotArmDemo::~RobotArmDemo()
 	ReleaseCOM(mFX);
 
 	ReleaseCOM(mBoneMesh);
-	for(int i = 0; i < mTex.size(); ++i)
+	for(size_t i = 0; i < mTex.size(); ++i)
 		ReleaseCOM(mTex[i]);
 
 	ReleaseCOM(mWhiteTex);
@@ -297,7 +297,7 @@ void RobotArmDemo::drawScene()
 		D3DXMatrixTranspose(&worldInvTrans, &worldInvTrans);
 		HR(mFX->SetMatrix(mhWorldInvTrans, &worldInvTrans));
 		HR(mFX->SetMatrix(mhWorld, &mWorld));
-		for(int j = 0; j < mMtrl.size(); ++j)
+		for(size_t j = 0; j < mMtrl.size(); ++j)
 		{
 			HR(mFX->SetValue(mhMtrl, &mMtrl[j], sizeof(Mtrl)));
 		

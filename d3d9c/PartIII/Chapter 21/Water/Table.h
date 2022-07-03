@@ -6,7 +6,8 @@
 #define TABLE_H
 
 #include <cassert>
-#include <vector>
+#include <vector> 
+#pragma comment(lib, "legacy_stdio_definitions.lib")
 
 template <typename T>
 class Table

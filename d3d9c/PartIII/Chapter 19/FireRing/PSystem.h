@@ -7,7 +7,8 @@
 
 #include "d3dUtil.h"
 #include "Vertex.h"
-#include <vector>
+#include <vector> 
+#pragma comment(lib, "legacy_stdio_definitions.lib")
 
 //===============================================================
 class PSystem

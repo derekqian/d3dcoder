@@ -123,7 +123,7 @@ XFileDemo::~XFileDemo()
 	ReleaseCOM(mFX);
 
 	ReleaseCOM(mMesh);
-	for(int i = 0; i < mTex.size(); ++i)
+	for(size_t i = 0; i < mTex.size(); ++i)
 		ReleaseCOM(mTex[i]);
 
 	ReleaseCOM(mWhiteTex);
@@ -217,7 +217,7 @@ void XFileDemo::drawScene()
 	HR(mFX->Begin(&numPasses, 0));
 	HR(mFX->BeginPass(0));
 
-	for(int j = 0; j < mMtrl.size(); ++j)
+	for(size_t j = 0; j < mMtrl.size(); ++j)
 	{
 		HR(mFX->SetValue(mhMtrl, &mMtrl[j], sizeof(Mtrl)));
 	

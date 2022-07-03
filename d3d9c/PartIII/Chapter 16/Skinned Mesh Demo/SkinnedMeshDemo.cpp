@@ -94,7 +94,7 @@ SkinnedMeshDemo::SkinnedMeshDemo(HINSTANCE hInstance, std::string winCaption, D3
 	mGfxStats = new GfxStats();
 	
 	mCameraRadius    = 6.0f;
-	mCameraRotationY = 1.3 * D3DX_PI;
+	mCameraRotationY = 1.3f * D3DX_PI;
 	mCameraHeight    = 3.0f;
 
 	mLight.dirW    = D3DXVECTOR3(1.0f, 1.0f, 2.0f);

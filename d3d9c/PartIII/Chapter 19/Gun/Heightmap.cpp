@@ -3,7 +3,8 @@
 //=============================================================================
 
 #include <fstream>
-#include <vector>
+#include <vector> 
+#pragma comment(lib, "legacy_stdio_definitions.lib")
 #include "Heightmap.h"
 #include "d3dUtil.h"
 using namespace std;

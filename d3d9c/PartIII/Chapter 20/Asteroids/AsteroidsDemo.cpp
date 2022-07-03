@@ -12,7 +12,8 @@
 #include <crtdbg.h>
 #include "GfxStats.h"
 #include <list>
-#include <vector>
+#include <vector> 
+#pragma comment(lib, "legacy_stdio_definitions.lib")
 #include <ctime>
 #include "Terrain.h"
 #include "Camera.h"

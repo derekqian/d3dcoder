@@ -22,7 +22,8 @@
 #include <dxerr.h>
 #include <string>
 #include <sstream>
-#include <vector>
+#include <vector> 
+#pragma comment(lib, "legacy_stdio_definitions.lib")
 
 #pragma comment(lib, "legacy_stdio_definitions.lib")
 

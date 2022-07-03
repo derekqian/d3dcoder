@@ -108,7 +108,7 @@ void GfxStats::display()
 	// Make static so memory is not allocated every frame.
 	static char buffer[256];
 
-	wsprintf(buffer, "Frames Per Second = %.2f\n"
+	wwsprintf(buffer, "Frames Per Second = %.2f\n"
 		"Milliseconds Per Frame = %.4f\n"
 		"Triangle Count = %d\n"
 		"Vertex Count = %d", mFPS, mMilliSecPerFrame, mNumTris, mNumVertices);
